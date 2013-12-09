@@ -1,0 +1,328 @@
+/***************************************************************************************************
+====================================================================================================
+
+
+    Sunrise - Coming Soon Page
+
+    v1.1, 13 November 2013
+
+    by Alex Shnayder
+
+
+====================================================================================================
+
+    Main stylesheet
+
+***************************************************************************************************/
+
+
+
+/*
+    Body
+=================================================================*/
+
+html {
+    min-height: 100%;
+
+    background: #C07B3A url('../img/bg.jpg') 100% 100% no-repeat;
+    background: url('../img/logo.png') 100% 100% no-repeat, #C07B3A url('../img/bg.jpg') 100% 100% no-repeat;
+
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    min-height: 100%;
+    font: 20px/1.4 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66);
+
+    background: transparent;
+}
+
+
+/*
+    Page heading
+=================================================================*/
+
+.page-heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/*
+    Description
+=================================================================*/
+
+.description {
+    margin-bottom: 40px;
+}
+
+
+/*
+    Subscription form
+=================================================================*/
+
+.subscription-form {
+    display: inline-block;
+    margin: 0 0 60px 0;
+
+    position: relative;
+}
+
+.subscription-email,
+.subscription-submit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    vertical-align: top;
+
+    font: inherit;
+
+    -webkit-transition: none;
+    transition: none;
+
+    -webkit-appearance: none;
+}
+
+.subscription-email {
+    width: 350px;
+    height: 54px;
+    padding: 13px 5px 11px 20px;
+
+    float: left;
+
+    font-size: 18px;
+    line-height: 28px;
+    color: #363636;
+
+    border: 1px solid #ccc;
+    border-right-width: 0;
+    border-radius: 27px 0 0 27px;
+    
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.subscription-email:focus {
+    padding-left: 19px;
+    padding-right: 19px;
+
+    color: #363636;
+
+    border: 2px solid #F87F0E;
+    border-right-width: 0;
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    outline: none;
+}
+
+.subscription-email:focus:invalid {
+    padding-left: 19px;
+    padding-right: 19px;
+
+    color: #363636;
+
+    border: 2px solid #F87F0E;
+    border-right-width: 0;
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.subscription-email:focus + .subscription-submit-container {
+    padding: 3px;
+    padding-left: 0;
+
+    border: 2px solid #F87F0E;
+    border-left-width: 0;
+}
+
+.subscription-email:focus:invalid + .subscription-submit-container {
+    padding: 3px;
+    padding-left: 0;
+
+    border: 2px solid #F87F0E;
+    border-left-width: 0;
+}
+
+.subscription-email.error,
+.subscription-email.error + .subscription-submit-container {
+    border-color: #ED4116;
+}
+
+.subscription-submit-container {
+    display: inline-block;
+    height: 54px;
+    padding: 4px;
+    padding-left: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    float: right;
+
+    background: #fff;
+
+    border: 1px solid #ccc;
+    border-left-width: 0;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+.subscription-submit {
+    height: 44px;
+    padding: 0 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: inherit;
+
+    background-color: #F87F0E;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F9A621), to(#F87F0E));
+    background-image: -webkit-linear-gradient(#F9A621, #F87F0E);
+    background-image: linear-gradient(#F9A621, #F87F0E);
+
+    border-radius: 22px;
+}
+
+.subscription-submit:hover,
+.subscription-submit:focus {
+    color: #fff;
+    background-color: #F87F0E;
+    outline: none;
+}
+
+.subscription-submit:active {
+    color: #fff;
+    background-color: #C56105;
+}
+
+.subscription-tooltip {
+    width: 100%;
+    padding-top: 5px;
+
+    position: absolute;
+    top: 100%;
+
+    text-align: center;
+}
+
+.subscription-tooltip.error {
+    color: #F9D820;
+}
+
+.subscription-tooltip.success {
+    color: #A3EE15;
+}
+
+
+/*
+    Countdown
+=================================================================*/
+
+.countdown {
+    overflow: hidden;
+}
+
+.countdown-item {
+    float: left;
+}
+
+.countdown-item {
+    margin: 0 50px 20px 0;
+}
+
+.countdown-number {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.countdown-text {
+    text-align: center;
+}
+
+
+/*
+    Responsiveness
+=================================================================*/
+
+@media (max-width: 979px) {
+    html {
+        background: #C07B3A url('../img/bg.jpg') 100% 100% no-repeat;
+
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .site-heading {
+        margin-top: 25px;
+    }
+
+    .subscription-email {
+        width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-heading,
+    .description {
+        text-align: center;
+    }
+
+    .subscription-form {
+        display: block;
+    }
+
+    .subscription-email,
+    .subscription-submit {
+        width: 100%;
+    }
+
+    .subscription-email {
+        float: none;
+
+        border-radius: 27px;
+    }
+
+    .subscription-submit-container,
+    .subscription-email:focus + .subscription-submit-container {
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+
+        float: none;
+        position: static;
+
+        background: transparent;
+        border: 0;
+    }
+
+    .subscription-email:focus:invalid + .subscription-submit-container {
+        padding: 0;
+        border: 0;
+    }
+
+    .countdown-item {
+        width: 50%;
+        margin-right: 0;
+
+        text-align: center;
+    }
+}
