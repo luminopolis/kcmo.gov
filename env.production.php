@@ -2,11 +2,11 @@
 
 // @see https://github.com/x-team/config-driven-wp/
 return array(
-	'DB_HOST' => '127.0.0.1',
-	'DB_HOST_SLAVE' => 'localhost',
-	'DB_NAME' => 'DB NAME HERE',
-	'DB_PASSWORD' => 'DB PASS HERE',
-	'DB_USER' => 'DB USER HERE',
+	'DB_HOST' => '127.0.0.1',		// CHANGE
+	'DB_HOST_SLAVE' => 'localhost',		// CHANGE
+	'DB_NAME' => 'DB NAME HERE',		// CHANGE
+	'DB_PASSWORD' => 'DB PASS HERE',	// CHANGE
+	'DB_USER' => 'DB USER HERE',		// CHANGE
 	'DB_CHARSET' => 'utf8',
 	'DB_COLLATE' => 'utf8_unicode_ci',
 	
@@ -15,7 +15,7 @@ return array(
 	'WP_DEBUG' => TRUE,
 	'WPLANG' => '',
 	
-	'ENVIRONMENT' => 'PROD',	// custom
+	'ENVIRONMENT' => 'PROD',	
 	
 	// http://strongpasswordgenerator.com/ use 40+ characters
 	'AUTH_KEY'         => 'Mx9TDkGrRgHGSXE4GeOgRqIfIZgfOZoKmau7aEjnEfINfgP8mr',
@@ -36,8 +36,7 @@ return array(
 	'MULTISITE' => TRUE,
 	'SUBDOMAIN_INSTALL' => FALSE,
 	'base' => '/',
-	//'DOMAIN_CURRENT_SITE' => 'kcmo.gov',	
-	'DOMAIN_CURRENT_SITE' => 'qdi478t.wpengine.com',
+	'DOMAIN_CURRENT_SITE' => 'DOMAIN.TLD',	// CHANGE
 	'PATH_CURRENT_SITE' => '/',
 	'SITE_ID_CURRENT_SITE' => 1,
 	//'BLOG_ID_CURRENT_SITE' => 1
