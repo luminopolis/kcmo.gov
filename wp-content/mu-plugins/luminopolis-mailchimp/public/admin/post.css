@@ -1,0 +1,62 @@
+div.luminopolis_mailchimp{
+	display: table;
+}
+
+div.luminopolis_mailchimp .error{
+	color: #f00 !important;
+}
+
+div.luminopolis_mailchimp h4{
+	line-height: 1.6em;
+	margin: 0;
+}
+
+div.luminopolis_mailchimp fieldset{
+	display: table-row;
+}
+
+div.luminopolis_mailchimp fieldset.meta{
+	color: #999;
+}
+
+#misc-publishing-actions div.luminopolis_mailchimp label{
+	display: inline-block;
+	height: 2em;
+	vertical-align: baseline;
+	width: 7em;
+}
+
+div.luminopolis_mailchimp input, div.luminopolis_mailchimp select{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 12em;
+}
+
+div.luminopolis_mailchimp input[type=checkbox]{
+	width: auto;
+}
+
+div.luminopolis_mailchimp div.text{
+	display: inline-block;
+	vertical-align: top;
+	width: 12em;
+}
+
+div.luminopolis_mailchimp div.text{
+	margin-left: 4px;
+}
+
+div.luminopolis_mailchimp input:disabled, div.luminopolis_mailchimp select:disabled{
+	color: #999;
+}
+
+div.luminopolis_mailchimp fieldset.twitter textarea{
+	display: block;
+	height: 8em;
+	width: 100%;
+}
+
+div.luminopolis_mailchimp fieldset.twitter #mailchimp_tweet_character{
+	color: #999;
+	float: right;
+}

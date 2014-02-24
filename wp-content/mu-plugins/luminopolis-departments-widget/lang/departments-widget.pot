@@ -1,0 +1,25 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/kcmo-departments-widget\n"
+"POT-Creation-Date: 2014-02-10 21:58:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: views/admin/widgets.php:3
+msgid "Department Info"
+msgstr ""
+
+#: views/admin/widgets.php:15
+msgid "Social Networks"
+msgstr ""
+
+#: views/admin/widgets.php:51
+msgid "Add Social Network"
+msgstr ""

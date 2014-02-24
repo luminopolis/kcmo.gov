@@ -1,0 +1,1 @@
+* Define 'LUMINOPOLIS_DEPARTMENTS_PLUGINS_URL' as needed

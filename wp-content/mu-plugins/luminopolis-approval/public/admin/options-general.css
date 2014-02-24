@@ -1,0 +1,19 @@
+fieldset.approval{
+	margin: 0 0 1em 0;
+}
+
+fieldset.approval legend{
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+fieldset.approval label{
+	display: inline-block;
+	margin: 0 .25em .25em 0;
+	width: 16em;
+}
+
+fieldset.approval label input[type=checkbox]{
+	display: inline-block;
+	margin-right: 1em;
+}

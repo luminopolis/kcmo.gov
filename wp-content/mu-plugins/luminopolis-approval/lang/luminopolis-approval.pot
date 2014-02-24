@@ -1,0 +1,63 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/luminopolis-approval\n"
+"POT-Creation-Date: 2014-02-10 20:40:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin-revision.php:68 admin-revision.php:70
+msgid "(no title)"
+msgstr ""
+
+#: lib/index.php:10
+msgid "Needs Reapproval <span class=\"count\">(%s)</span>"
+msgid_plural "Needs Reapproval <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/admin/options-general.php:2
+msgid "Approval Workflow Settings"
+msgstr ""
+
+#: views/admin/options-general.php:10
+msgid "Excluded Post Types"
+msgstr ""
+
+#: views/admin/options-general.php:31
+msgid "Log All Outgoing Mail"
+msgstr ""
+
+#: views/admin/options-general.php:33
+msgid "Send From Address"
+msgstr ""
+
+#: views/admin/options-general.php:35
+msgid "Rejection Letter From"
+msgstr ""
+
+#: views/admin/options-general.php:37
+msgid "Rejection Letter Email"
+msgstr ""
+
+#: views/admin/post-submitbox-author.php:4
+msgid "Submit for Re-approval"
+msgstr ""
+
+#: views/admin/post-submitbox.php:4
+msgid "Approve( pending )"
+msgstr ""
+
+#: views/admin/post-submitbox.php:8
+msgid "Approve( final )"
+msgstr ""
+
+#: views/admin/post-submitbox.php:12
+msgid "Reject"
+msgstr ""

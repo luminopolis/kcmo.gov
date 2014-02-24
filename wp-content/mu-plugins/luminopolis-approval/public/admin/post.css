@@ -1,0 +1,66 @@
+body.post-type-rejected-content a.add-new-h2{
+	display: none;
+}
+
+fieldset#luminopolis_approval{
+	
+}
+
+fieldset#luminopolis_approval button[type=submit]{
+	display: block;
+	margin: 0 0 .5em 0;
+}
+
+div.approval-history-wrap{
+	white-space: nowrap;
+}
+
+#poststuff div.approval-history{
+	border: 1px solid #999;
+	display: block;
+	margin: 0 10px 10px 0;
+	padding: 0;
+	white-space: normal;
+}
+
+#poststuff div.approval-history p{
+	font-size: 12px;
+	margin: 0 0 1em 0;	
+}
+
+#poststuff div.approval-history p span.action{
+	background-color: #999;
+	color: #eee;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 1em;
+	padding: 4px;
+	text-shadow: 1px 1px 1px #333;
+}
+
+#poststuff div.approval-history p span.action.approved{
+	background-color: #4BC942;
+	color: #fff;
+	text-shadow: 1px 1px 1px #59483D;
+}
+
+#poststuff div.approval-history p span.action.rejected{
+	background-color: #A00808;
+	color: #fff;
+	text-shadow: 1px 1px 1px #47210A;
+}
+
+#poststuff div.approval-history p span.on-date{
+	display: inline;
+	font-size: .6em;
+	padding: 0 4px;
+}
+
+#poststuff div.approval-history p span.author{
+	color: #666;
+	display: block;
+	font-size: 82%;
+	padding: 0 4px;
+	text-align: right;
+}

@@ -1,0 +1,42 @@
+.kcmo_dept{
+
+}
+
+.kcmo_dept h5{
+	line-height: 20px;
+	margin: 0;
+}
+
+.kcmo_dept h5 img{
+	float: left;
+	height: auto;
+	padding: 0 8px 0 0;
+	width: 16px;
+}
+
+.kcmo_dept h5:hover span.action{
+	display: block;
+}
+
+.kcmo_dept h5 span.action{
+	display: none;
+	float: right;
+	font-weight: normal;
+}
+
+.kcmo_dept input{
+	
+	width: 100%;
+}
+
+.kcmo_dept textarea{
+	font-size: .8em;
+	height: 6em;
+	width: 100%;
+}
+
+.kcmo_dept label.social{
+	display: inline-table;
+	font-size: .8em;
+	width: 40px;
+}
